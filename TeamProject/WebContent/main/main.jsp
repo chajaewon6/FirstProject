@@ -102,9 +102,6 @@
                                                 </ul>
                                             </li>
                                             <li><a href="#">숙박예약</a>
-                                                <ul class="submenu">
-                                                    <li><a href="elements.html">Element</a></li>
-                                                </ul>
                                             </li>
                                             <li><a href="contact.html">마이페이지</a></li>
                                         </ul>
