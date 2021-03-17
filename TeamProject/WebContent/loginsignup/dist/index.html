@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - UI Challenge Day 1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="panel panel--static">
+    <div class="panel__content left">
+        <h1 class="panel__heading">혹시 계정이 없으신가요?</h1>
+        <p class="panel__copy">즐거운 여행을 저희와 함께 할 준비가 되셨다면 아래 버튼을 눌러주세요!</p>
+        <button type="button" class="btn btn--secondary signup">회원가입</button>
+    </div>
+    <div class="panel__content right">
+        <h1 class="panel__heading">이미 계정이 있으신가요?</h1>
+        <p class="panel__copy">그렇다면 저희와 함께 즐거운 여행을 떠나봅시다!</p>
+        <button type="button" class="btn btn--secondary login">로그인</button>
+    </div>
+    
+    <div class="panel panel--sliding">
+        <div class="panel__content signup">
+            <h1 class="panel__heading">회원가입</h1>
+            <form id="signup">
+                <input type="text" placeholder="이름" class="input input--name">
+                <input type="text" placeholder="아이디" class="input input--id">
+                <input type="text" placeholder="비밀번호" class="input input--pwd1">
+                <input type="text" placeholder="비밀번호 확인" class="input input--pwd2">
+                <input type="text" placeholder="생년월일" class="input input--birthday">
+                <input type="text" placeholder="성별" class="input input--sex">
+                	<input type="radio" name="성별">여자
+                	<input type="radio" name="성별">남자<hr>
+                <input type="text" placeholder="우편번호" class="input input--add1">
+                <input type="text" placeholder="집주소" class="input input--add2">
+                <input type="text" placeholder="핸드폰번호" class="input input--phone">
+                <input type="text" placeholder="이메일" class="input input--email">
+                <button class="btn btn--primary">회원가입</button>
+            </form>
+        </div>
+            
+            <div class="panel__content login">
+                <h1 class="panel__heading">로그인</h1>
+                <form id="login">
+                    <input type="text" placeholder="아이디" class="input input--email">
+                    <input type="text" placeholder="비밀번호" class="input input--password">
+                    <button class="btn btn--primary">로그인</button>
+                    <a href="/">아이디/비밀번호를 잃어버리셨나요?</a>
+                </form>
+        </div>
+    </div>    
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
