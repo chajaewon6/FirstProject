@@ -99,24 +99,24 @@
         <div class="profile-content">
             <ul>
                 <li>
-                    <div class="digits">83</div>
-                    Followers
+                    <div class="digits">프로필 변경</div>
+                    클릭
                 </li>
                 <li>
-                    <div class="digits">1507</div>
-                    Tweets
+                    <div class="digits">나의 여행일정</div>
+                    0
                 </li>
                 <li>
-                    <div class="digits">234</div>
-                    Friends
+                    <div class="digits">찜한 여행일정</div>
+                    23
                 </li>
                 <li>
-                    <div class="digits">51</div>
-                    Likes
+                    <div class="digits">찜한 여행지</div>
+                    5
                 </li>
                 <li>
-                    <div class="digits">42</div>
-                    Gits
+                    <div class="digits">숙박/예약</div>
+                    5
                 </li>
             </ul>
             <div class="clear"></div>
