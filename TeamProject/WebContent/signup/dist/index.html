@@ -21,22 +21,46 @@
 
       <form action="index.html" method="post">
       
-        <h1>Sign Up</h1>
+        <h1>회원가입</h1>
         
         <fieldset>
-          <legend><span class="number">1</span>Your basic info</legend>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name">
+          <legend><span class="number">1</span>기본사항</legend>
+          <label for="name">아이디</label>
+          <input type="text" id="user_id" name="user_id">
           
-          <label for="mail">Email:</label>
-          <input type="email" id="mail" name="user_email">
+          <label for="mail">이름</label>
+          <input type="text" id="name" name="name">
           
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="user_password">
+          <label for="password">비밀번호</label>
+          <input type="password" id="pwd" name="pwd">
           
-          <label>Age:</label>
-          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
-          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">13 or older</label>
+          <label for="mail">생년월일</label>
+          <input type="text" id="birthday" name="birthday">
+          
+          <label>성별</label>
+          <input type="radio" id="boy" value="남자" name="sex"><label for="under_13" class="light">남자</label>&nbsp;&nbsp;
+          <input type="radio" id="girl" value="여자" name="sex"><label for="over_13" class="light">여자</label>
+          <br><br>
+           <label for="mail">집주소</label>
+          <input type="text" id="add1" name="add1">
+          
+           <label for="mail">상세주소</label>
+          <input type="text" id="add2" name="add2">
+          
+           <label for="mail">핸드폰번호</label>
+          <input type="text" id="phone" name="phone">
+          
+           <label for="mail">이메일</label>
+          <input type="email" id="email" name="email">
+          
+     		<label>뉴스메일</label>
+          <input type="radio" id="yes" value="yes" name="news"><label for="under_13" class="light">받습니다</label>&nbsp;&nbsp;
+          <input type="radio" id="no" value="no" name="news"><label for="over_13" class="light">받지 않습니다</label>
+          <br><br>
+          <label>SMS안내(이벤트)</label>
+          <input type="radio" id="yes" value="yes" name="sms"><label for="under_13" class="light">받습니다</label>&nbsp;&nbsp;
+          <input type="radio" id="no" value="no" name="sms"><label for="over_13" class="light">받지 않습니다</label>
+          <br><br>
         </fieldset>
         
         <fieldset>
@@ -76,7 +100,7 @@
           <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
         
         </fieldset>
-        <button type="submit">Sign Up</button>
+        <button type="submit">회원가입</button>
       </form>
       
     </body>
