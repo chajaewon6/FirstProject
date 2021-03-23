@@ -92,13 +92,6 @@
                                                     <li><a href="single-blog.html">잠실</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="packages.html">나의 일정 만들기</a></li>
-                                            <li><a href="blog.html">다른 일정 둘러보기</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">지역별</a></li>
-                                                    <li><a href="single-blog.html">장소별</a></li>
-                                                </ul>
-                                            </li>
                                             <li><a href="#">커뮤니티</a>
                                              <ul class="submenu">
                                                     <li><a href="single-blog.html">여행사진 공유</a></li>
