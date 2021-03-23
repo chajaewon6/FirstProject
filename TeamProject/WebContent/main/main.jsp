@@ -47,11 +47,11 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-8">
                             <div class="header-info-left">
-                                <ul>                          
+                                <!-- <ul>                          
                                     <li>needhelp@gotrip.com</li>
                                     <li>666 569 025077</li>
                                     <li>broklyn street new york</li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                         <div class="col-lg-4">
