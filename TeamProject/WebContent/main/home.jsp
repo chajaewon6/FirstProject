@@ -8,19 +8,32 @@
 <style type="text/css">
 .main-image
 {
-   background-image: url("../img/hero/h1_hero.jpg");
+   background-image: url("https://www.travelmap.co.kr/contents/files/board/news/2020/12/editor_3824_1608277874_1608278606.png");
+   background-size:cover;
+   background-repeat:no-repeat;
    height: 18%;
    width:100%;
+   
 }
 .single-place{
 	height:40%;
 	width:100%;
+	
 }
 .video-area{
 	height:18%;
 	width:50%;
 	margin:0px auto;
 	
+}
+.place-img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.home-blog-single{
+
 }
 </style>
 </head>
@@ -461,12 +474,12 @@
                         <div class="home-blog-single mb-30">
                             <div class="blog-img-cap">
                                 <div class="blog-img">
-                                    <img src="../img/blog/home-blog1.jpg" alt="">
+                                    <img src="https://lh3.googleusercontent.com/proxy/SvMxDztkW4MEZKtEf0H3BL83PH4Y0qNS656rFyxglMv5FNQp_HeLjli5Y9ln_rh18d5alBbcuATYBYwjAVXFQlFB2IVuk7YTe30TxA" alt="">
                                 </div>
                                 <div class="blog-cap">
-                                    <p> |   Traveling</p>
-                                    <h3><a href="single-blog.html">Tips For Taking A Long-Term Trip With Kids.</a></h3>
-                                    <a href="#" class="more-btn">Read more »</a>
+                                    <p> |   동대문</p>
+                                    <h3><a href="single-blog.html">동대문에 FEEL을 느껴봐!( ๑˃̶ ꇴ ˂̶)♪⁺</a></h3>
+                                    <a href="#" class="more-btn">더보기 »</a>
                                 </div>
                             </div>
                             <div class="blog-date text-center">
@@ -479,12 +492,12 @@
                         <div class="home-blog-single mb-30">
                             <div class="blog-img-cap">
                                 <div class="blog-img">
-                                    <img src="../img/blog/home-blog2.jpg" alt="">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb2EdOUXD-CvZlawC7APVNuzIzF4jIWsUQrQ&usqp=CAU" alt="">
                                 </div>
                                 <div class="blog-cap">
-                                    <p> |   Traveling</p>
-                                    <h3><a href="single-blog.html">Tips For Taking A Long-Term Trip With Kids.</a></h3>
-                                    <a href="#" class="more-btn">Read more »</a>
+                                    <p> |   강남</p>
+                                    <h3><a href="single-blog.html">이것만 보면 나도 강남 마스터 (ง •̀ω•́)ง✧</a></h3>
+                                    <a href="#" class="more-btn">더보기 »</a>
                                 </div>
                             </div>
                             <div class="blog-date text-center">
