@@ -14,13 +14,13 @@ public class placeManager {
 		PlaceDAO dao=new PlaceDAO();
 		try
 		{
-			String u="https://korean.visitseoul.net/nature";
+			String u="https://korean.visitseoul.net/restaurants";
 			// actions : 명소
 			for(int i=1; i<=5; i++)
 			{
-				String url="https://korean.visitseoul.net/nature?curPage="+i;
+				String url="https://korean.visitseoul.net/restaurants?curPage="+i;
 				
-				int cno=11;
+				int cno=14;
 				Document doc=Jsoup.connect(url).get();
 				//System.out.println(doc);
 				

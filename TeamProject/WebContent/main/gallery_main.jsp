@@ -127,7 +127,7 @@
         <!-- Header End -->
     </header>
 	<!-- 내용 들어가는 위치 -->
-    <jsp:include page="gallery.jsp"></jsp:include>
+    <jsp:include page="mytrip.jsp"></jsp:include>
      <footer>
         <!-- Footer Start-->
         <div class="footer-area footer-padding footer-bg" data-background="../img/service/footer_bg.jpg">
